@@ -1,0 +1,85 @@
+[
+  {
+    "$type": "Example.Models.Book, Example",
+    "Weight": 12,
+    "Sku": "BODf23",
+    "Name": "Bookname",
+    "Price": 23
+  },
+  {
+    "$type": "Example.Models.Book, Example",
+    "Weight": 32,
+    "Sku": "BO2824",
+    "Name": "Book two",
+    "Price": 323
+  },
+  {
+    "$type": "Example.Models.Book, Example",
+    "Weight": 12,
+    "Sku": "BOG1213",
+    "Name": "Bookname",
+    "Price": 23
+  },
+  {
+    "$type": "Example.Models.Book, Example",
+    "Weight": 32,
+    "Sku": "BO2382",
+    "Name": "Book two",
+    "Price": 323
+  },
+  {
+    "$type": "Example.Models.Furniture, Example",
+    "Height": 23,
+    "Width": 35,
+    "Length": 20,
+    "Sku": "FU8142",
+    "Name": "Furniture",
+    "Price": 2323
+  },
+  {
+    "$type": "Example.Models.Furniture, Example",
+    "Height": 23,
+    "Width": 35,
+    "Length": 20,
+    "Sku": "FU20942",
+    "Name": "Furniture pro",
+    "Price": 2323
+  },
+  {
+    "$type": "Example.Models.Furniture, Example",
+    "Height": 23,
+    "Width": 35,
+    "Length": 20,
+    "Sku": "FU23142",
+    "Name": "Furniture prolife",
+    "Price": 2323
+  },
+  {
+    "$type": "Example.Models.Dvd, Example",
+    "Size": 425,
+    "Sku": "DV232321",
+    "Name": "DVD good",
+    "Price": 243342
+  },
+  {
+    "$type": "Example.Models.Dvd, Example",
+    "Size": 454,
+    "Sku": "DV233221",
+    "Name": "DVD ood",
+    "Price": 243342
+  },
+  {
+    "$type": "Example.Models.Dvd, Example",
+    "Size": 415,
+    "Sku": "DV222321",
+    "Name": "DVD good",
+    "Price": 243342
+  },
+  {
+    "$type": "Example.Models.Book, Example",
+    "Weight": 23,
+    "Sku": "BO2386",
+    "Name": "1ijoid",
+    "Price": 121
+  }
+]

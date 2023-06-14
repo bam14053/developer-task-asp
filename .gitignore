@@ -1,0 +1,6 @@
+#ignore all log files
+*.log
+
+#Folders to ignore
+bin/
+obj/

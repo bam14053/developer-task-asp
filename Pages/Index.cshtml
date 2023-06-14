@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<br />
+<form method="post">
+    <div class="container text-start">
+        <div class="row">
+            @foreach (var item in Model.ProductsList)
+            {
+                <div class="col" id="@item.Sku">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <input class="delete-checkbox form-check-input" name="DeleteCheckboxes" type="checkbox" value="@item.Sku" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col align-self-center offset-1">
+                                @item.Sku
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col align-self-center offset-1">
+                                @item.Name
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col align-self-center offset-1">
+                                @item.Price
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col align-self-center offset-1">
+                                @item.PrintProductInfo()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+    <div class="text-right">
+        <input class="btn btn-danger" type="submit" value="MASS DELETE" />
+        <a class="btn btn-primary"  asp-page="/Add">Add Product</a>
+    </div>
+</form>
